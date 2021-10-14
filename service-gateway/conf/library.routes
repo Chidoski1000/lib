@@ -1,0 +1,2 @@
+POST      /                                         controllers.LibraryController.addLibrary()
+GET       /:libraryId/                              controllers.LibraryController.getLibrary(libraryId: String)
